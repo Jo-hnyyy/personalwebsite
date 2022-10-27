@@ -1,0 +1,49 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>John Odhiambo's personal website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,800;1,500;1,800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css"> 
+</head>
+        <body>
+            <section class-"header">
+            <nav>
+                <a href="index.html"><img src="images/kenya.jpg"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times"onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars"onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>Introduction To My blog</h1>
+                <p>“Hello, I am John Odhiambo, and I will be completing my bachelor’s degree in Business information technology 
+                    from Zetech University in the year 2024 December. I have worked on a wide variety of projects that have allowed me 
+                    to put what I’ve learned in the classroom into use in a practical as sometimes I help other students do there 
+                    assignment on appwork, Am also an academic writter who can do various writting jobs. My favourite football team
+                    is manchester united, and My favourite footballer is Zlatan Ibrahimovic”
+                </p>
+                <a href="" class="hero-btn">contact me to know more</a>
+            </div>
+
+            </section>
+           <!-----Javascript for toggle Menu------->
+            <script>
+                var navLinks= document.getElementById("navLinks");
+            funtion showMenu(){
+                navLinks.style.right="0"
+            }
+            var navLinks= document.getElementById("navLinks");
+            funtion hideMenu(){
+                navLinks.style.right="-200px"
+            </script>
+        </body>
+</html>
